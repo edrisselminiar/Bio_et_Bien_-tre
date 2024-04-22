@@ -1,0 +1,10 @@
+.bord{
+  border: 8px solid #0000000e;
+  border-radius: 10px;
+  /* box-shadow: 3px 3px 3px #686868; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sizespan{
+  font-size: 160%;
+  color: rgb(234, 234, 234);
+}

@@ -1,0 +1,12 @@
+.imagFor{
+    /* background-color: rgb(241, 255, 237); */
+    background-color: #f3f3f3;
+}
+.h2bio h2,.col-12 h3{
+    color: #9e121b;
+    /* color: #ffffff;   */
+}
+.col-12 h3{
+    color: #9e121b;
+    text-decoration:underline;
+}

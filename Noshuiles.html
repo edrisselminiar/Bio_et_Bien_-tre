@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noshuiles</title>
+    <link rel="stylesheet" href="ressources/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Noshuiles.css">
+    <link rel="stylesheet" href="ressources/css/all.css">
+    <script src="ressources/js/jquery-3.6.0.js"></script>
+
+    
+</head>
+<body>
+    <header>
+        <div class="nav2">
+            <div class="nava1">
+                <a href="Home.html"><img src="images/Bio et Bien étre.jpg" class="" alt=""></a>
+                
+            </div>
+            
+            <form class="form-inline d-flex navc">
+              <div class="navc1 d-flex">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn rounded1"  style="width: 40px; height:100%;background-color: #9e121b;" type="submit"><span style="color: rgb(255, 255, 255);"><i class="fa fa-search"  ></i></span></button>
+              </div>
+            </form>
+            <div class="navc2">
+                <select class="select" onchange="f3()">
+                  <option>MAD</option>
+                  <option>EUR</option>
+                </select>
+              </div>
+            <div class="navc3">
+              <select class="select">
+                <option selected>la langue</option>
+                <option value="1">العربية</option>
+                <option value="2">L'Anglais</option>
+                <option value="3">Français</option>
+              </select>
+            </div>
+            
+            <div class="navc4"><i class="fa-solid fa-basket-shopping"></i></div>
+            <div class="navc5"><a href="login.html"><i class="fa fa-user"></i></a></div>
+        </div>
+        <div class="navb">
+          <nav class="navbar navv  navbar-expand-lg navbar-light" >
+            <div class="container-fluid" > 
+              <form class="form-inline d-flex">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn rounded1"  style="width: 40px; height:100%;background-color: #9e121b;" type="submit"><span style="color: rgb(255, 255, 255);"><i class="fa fa-search"  ></i></span></button>
+                <!-- <button class="btn  btn-success w-1 h-1" style="width: 70px; height: 33px;" type="submit">Search</button> -->
+              </form>
+              <!-- <a class="navbar-brand" href="#">la liste</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-brand n1av w-100 me-0" id="navbarSupportedContent">
+                
+                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                   <li class="nav-item">
+                     <a class="nav-link "  href="Home.html"  id="nnav1">Home</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="Noshuiles.html" id="nnav1"> Nos huiles</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Noscoffrets.html" id="nnav1">Nos coffrets</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Nosfournisseurs.html" id="nnav1">Nos fournisseurs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Quisommes-nous.html" id="nnav1">Qui sommes-nous</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="Blog.html" id="nnav1">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="EspaceClient.html" id="nnav1">Espace Client</a>
+                    </li>
+
+                  </ul> 
+                </div>
+               </div>
+              </nav>
+               <hr>
+          </div>
+        
+            <nav class="nav1 mb-0">
+                <ul class="d-flex justify-content-evenly">
+                  
+                    <!-- <li> <a href="Nos huiles.html"> Nos huiles</a></li> -->
+                    <li>
+                      <a href="Noshuiles.html">Nos huiles</a>
+                    </li>
+                    <li><a href="Noscoffrets.html">Nos coffrets</a></li>
+                    <li> <a href="Nosfournisseurs.html">Nos fournisseurs</a></li>
+                    <li> <a href="Quisommes-nous.html">Qui sommes-nous</a></li>
+                    <li> <a href="Blog.html">Blog</a></li>
+                    <li> <a href="EspaceClient.html"> Espace Client</a></li>
+                    
+                   
+                </ul>
+            </nav> 
+    </header>
+    
+  
+
+
+
+
+    <!-- <div class="container"> -->
+    <div class="row m-0 x" id="xx" style="background-color:rgba(226, 226, 226, 0.227) ;">
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 ESSENTIELLE prix100"  >
+            <div class="card">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-angelique.jpg" class="w-100"/></div>
+            <h2><span class="span1">100</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE ESSENTIELLE  CAMOMILLE.</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success ajoute" id="ajoute"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+        
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 ESSENTIELLE prix80" >
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-camomille-matricaire-allemande.jpg" class="w-100"/></div>
+            <h2><span class="span1">80</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE ESSENTIELLE de CAMOMILLE</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success ajoute"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success ajoute"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 ESSENTIELLE prix60">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-camomille-romaine-noble.jpg" class="w-100"/></div>
+            <h2><span class="span1">60</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE ESSENTIELLE de CAMOMILLE</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 ESSENTIELLE prix40">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-ciste-ladanifere.jpg" class="w-100"/></div>
+            <h2><span class="span1">40</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE ESSENTIELLE de Ciste Ladanifère</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 ESSENTIELLE prix100">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-citronnelle.jpg" class="w-100"/></div>
+            <h2><span class="span1">100</span><span class="span">MAD</span></h2>
+            <div class="card-body">Huile Essentielle de Citronnelle</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 ESSENTIELLE prix80">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-clou-de-girofle.jpg" class="w-100"/></div>
+            <h2><span class="span1">80</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE ESSENTIELLE de CLOU DE GIROFLE</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 ESSENTIELLE prix60">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-cypres.jpg" class="w-100"/></div>
+            <h2><span class="span1">60</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE ESSENTIELLE de CYPRÈS</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 ESSENTIELLE prix40">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-de-basilic.jpg" class="w-100"/></div>
+            <h2><span class="span1">40</span><span class="span">MAD</span></h2>
+            <div class="card-body">Huile Essentielle de Basilic</div >
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 bio prix100">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-de-bergamote.jpg" class="w-100"/></div>
+            <h2><span class="span1">100</span><span class="span">MAD</span></h2>
+            <div class="card-body">Huile bio  de Bergamote</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 mt-3 xx bio prix80">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-de-bois-de-rose.jpg" class="w-100"/></div>
+            <h2><span class="span1">80</span><span class="span">MAD</span></h2>
+            <div class="card-body">Huile bio de Bois de Rose</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 bio prix60">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-de-cedre-de-l-atlas.jpg" class="w-100"/></div>
+            <h2><span class="span1">60</span><span class="span">MAD</span></h2>
+            <div class="card-body">Huile bio de Cèdre de l'Atlas</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 bio prix40">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-de-citron.jpg" class="w-100"/></div>
+            <h2><span class="span1">40</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE bio DE CITRON</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 bio prix100">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-de-gaultherie.jpg" class="w-100"/></div>
+            <h2><span class="span1">100</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE bio  de GAULTHERIE</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 bio prix80">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-de-geranium.jpg" class="w-100"/></div>
+            <h2><span class="span1">80</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE bio de GÉRANIUM</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 bio prix60">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-de-lavande.jpg" class="w-100"/></div>
+            <h2><span class="span1">60</span><span class="span">MAD</span></h2>
+            <div class="card-body">Huile bio de Lavande</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 bio prix40">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-de-mandarine.jpg" class="w-100"/></div>
+            <h2><span class="span1">40</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE bio de MANDARINE</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 alimentaires prix100">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-de-patchouli.jpg" class="w-100"/></div>
+            <h2><span class="span1">100</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE complements alimentaires de PATCHOULI</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 alimentaires prix80">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-de-pin.jpg" class="w-100"/></div>
+            <h2><span class="span1">80</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE complements alimentaires de PIN SYLVESTRE</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 alimentaires prix60">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-de-patchouli.jpg" class="w-100"/></div>
+            <h2><span class="span1">60</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE complements alimentaires de PATCHOULI</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 alimentaires prix40">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-de-poivre-noir.jpg" class="w-100"/></div>
+            <h2><span class="span1">40</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE complements alimentaires de POIVRE NOIR</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 alimentaires prix100">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-deucalyptus-radie.jpg" class="w-100"/></div>
+            <h2><span class="span1">100</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE complements alimentaires d EUCALYPTUS RADIÉ</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 alimentaires prix80">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-dhelichryse.jpg" class="w-100"/></div>
+            <h2><span class="span1">80</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE complements alimentaires d’HELICHRYSE DE MADAGASCAR</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+ 
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 alimentaires prix60">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-eucalyptus-citronne.jpg" class="w-100"/></div>
+            <h2><span class="span1">60</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE complements alimentaires d'EUCALYPTUS CITRONNÉ</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success "><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success "><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="col-lg-3 col-6 col-sm-4 col-md-3 xx mt-3 alimentaires prix40">
+            <div class="card ">
+            <div class="card-header bg-white"><img src="images/Nos huiles/huile-essentielle-eucalyptus-globulus.jpg" class="w-100"/></div>
+            <h2><span class="span1">40</span><span class="span">MAD</span></h2>
+            <div class="card-body">HUILE complements alimentaires d’EUCALYPTUS GLOBULUS</div>
+            <div class="card-footer bg-white ajovoi">
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-cart-shopping"></i> Ajouter</div>
+                <div class="btn btn-sm btn-success m-"><i class="fa-solid fa-eye me-1"></i>voir</div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+
+
+       
+
+
+
+    </div>
+   
+        
+           
+     
+
+    
+    
+
+
+
+    <footer  style="background-color: #f3f3f3;" class="mt-5" >
+        <div class="container">
+            <div class="row ">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-6 col-sm-6">
+                    <a href="Nos huiles.html" ><h4 style="color: #9e121b; ">Nos huiles</h4></a>
+                    <hr>
+                    <ul style="list-style-type: circle;">
+                        <li><a href="#" style="color: #000000;"> Nos huiles essentielles</a></li>
+                        <li><a href="#" style="color: #000000;">  Nos huiles bio</a></li>
+                        <li><a href="#" style="color: #000000;"> Nos huiles complements alimentaires</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-6 col-sm-6"> 
+                    <a href="Nos coffrets.html"><h4 style="color: #9e121b; ">Nos coffrets </h4></a><hr>
+                </div>
+    
+                <div class="col-xl-4 col-lg-4 col-md-4 col-6 col-sm-6">
+                    <a href=""><h4 style="color: #9e121b; ">Aide</h4></a><hr>
+                    <ul style="list-style-type: circle;"> 
+                        <li><a href="#" style="color: #000000;">  FAQ</a></li>
+                        <li><a href="#" style="color: #000000;">Mentions légales</a></li>
+                        <li><a href="#" style="color: #000000;">  Contact</a></li>
+                    </ul>
+                </div>
+           
+                <div class="col-xl-4 col-lg-4 col-md-4 col-6 col-sm-6">
+                    <a href=""><h4 style="color: #9e121b; ">Presse</h4></a><hr>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-6 col-sm-6">
+                    <a href="Qui sommes-nous.html"><h4 style="color: #9e121b; ">Qui sommes-nous ?</h4></a><hr>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-6 col-sm-6">
+                    <a href="Blog.html"><h4 style="color: #9e121b; ">Blog</h4> </a><hr>
+                </div>
+            </div>
+    
+            
+        </div>
+    </footer>
+
+
+    <!-- popup -->
+    <div class="relative" >
+        <div class="popup">
+            <div class="container w-100 h-100 mt-3 m-xm-0">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12"><img src="images/Nos huiles/huile-essentielle-citronnelle.jpg" class="w-100 imagesPopup " alt=""></div>
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12 bg-light mt-0">
+
+                        <h3 class="m-0 mb-0">Coffret cadeau Pinewood Tea Box Organisateur de cas de stockage huile essentielle Poitrine de RANGEMENT - CASIER - ETAGERE</h3><br>
+
+                        <div class="col icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+                        <div class="d-flex">
+                            <h1 style="color: #9e121b;">prix :</h1>
+                            <h1 ><span class="span1">50</span> <span class="span">MAD</span> </h1>
+                        </div>
+                        
+                        
+                        <div class="inpIcon mt-3 d-flex">
+                            <div><i class="fa-solid fa-square-plus" onclick="f1()"></i></div>
+                            
+                            <input class="text-center mb-3" id="input1" type="text" value="1" min="1" max="10" minlength="1" maxlength="10">
+                            <i class="fa-solid fa-square-minus" onclick="f2()"></i>
+                        </div>
+                        <div class="text-center mt-0 mt-xl-5 mt-lg-5 mt-md-5  mt-sm-5">
+                            <button type="button" class="btn btn-danger ">acheter</button>
+                            <button type="button" class="btn btn-danger ">ajouter en paniet</button>
+                        </div>
+                        
+                    
+                    </div>
+                    
+                </div>
+                <button type="button" class="closee btn btn-light mt-3 position-absolute bottom-0 end-0">close</button>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="ressources/js/bootstrap.js"></script>
+    <script src="Noshuiles.js"></script>
+
+</body>
+</html>

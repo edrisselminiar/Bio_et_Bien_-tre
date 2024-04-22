@@ -1,0 +1,16 @@
+.marg{
+    margin-top: 10%;
+}
+.widt{
+    width: 50%;
+}
+@media (max-width:700px){
+    .widt{
+        width: 100%;
+    }
+}
+@media (max-width:1000px) and (min-width:700px){
+    .widt{
+        width: 90%; 
+    }
+}

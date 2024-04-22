@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="ressources/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="ressources/css/all.css">
+    <script src="ressources/js/jquery-3.6.0.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="nav2">
+            <div class="nava1">
+                <a href="Home.html"><img src="images/Bio et Bien étre.jpg" class="" alt=""></a>
+                
+            </div>
+            
+            <form class="form-inline d-flex navc">
+              <div class="navc1 d-flex">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn rounded1"  style="width: 40px; height:100%;background-color: #9e121b;" type="submit"><span style="color: rgb(255, 255, 255);"><i class="fa fa-search"  ></i></span></button>
+              </div>
+            </form>
+            <div class="navc2">
+              <select class="select">
+                <option value="1">MAD</option>
+                <option value="2">USD</option>
+              </select>
+            </div>
+            <div class="navc3">
+              <select class="select">
+                <option selected>la langue</option>
+                <option value="1">العربية</option>
+                <option value="2">L'Anglais</option>
+                <option value="3">Français</option>
+              </select>
+            </div>
+            
+            <div class="navc4"><i class="fa-solid fa-basket-shopping"></i></div>
+            <div class="navc5"><a href="login.html"><i class="fa fa-user"></i></a></div>
+        </div>
+        <div class="navb">
+          <nav class="navbar navv  navbar-expand-lg navbar-light" >
+            <div class="container-fluid" > 
+              <form class="form-inline d-flex">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn rounded1"  style="width: 40px; height:100%;background-color: #9e121b;" type="submit"><span style="color: rgb(255, 255, 255);"><i class="fa fa-search"  ></i></span></button>
+                <!-- <button class="btn  btn-success w-1 h-1" style="width: 70px; height: 33px;" type="submit">Search</button> -->
+              </form>
+              <!-- <a class="navbar-brand" href="#">la liste</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-brand n1av w-100 me-0" id="navbarSupportedContent">
+                
+                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                   <li class="nav-item">
+                     <a class="nav-link "  href="Home.html"  id="nnav1">Home</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="Noshuiles.html" id="nnav1"> Nos huiles</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Noscoffrets.html" id="nnav1">Nos coffrets</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Nosfournisseurs.html" id="nnav1">Nos fournisseurs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Quisommes-nous.html" id="nnav1">Qui sommes-nous</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="Blog.html" id="nnav1">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="EspaceClient.html" id="nnav1">Espace Client</a>
+                    </li>
+
+                  </ul> 
+                </div>
+               </div>
+              </nav>
+               <hr>
+          </div>
+        
+            <nav class="nav1 mb-0">
+                <ul class="d-flex justify-content-evenly">
+                  
+                    <!-- <li> <a href="Nos huiles.html"> Nos huiles</a></li> -->
+                    <li>
+                      <a href="Noshuiles.html">Nos huiles</a>
+                    </li>
+                    <li><a href="Noshuiles.html">Nos coffrets</a></li>
+                    <li> <a href="Nosfournisseurs.html">Nos fournisseurs</a></li>
+                    <li> <a href="Quisommes-nous.html">Qui sommes-nous</a></li>
+                    <li> <a href="Blog.html">Blog</a></li>
+                    <li> <a href="EspaceClient.html"> Espace Client</a></li>
+                    
+                   
+                </ul>
+            </nav> 
+    </header>
+
+
+    <div class="container widt" id="disply" style="display:block;">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center" style="color:#9e121b;">Bio et Bien étre</h1><hr>
+        </div>
+
+        <div class="col-5 text-right">
+          <button type="button" class="btn btn-outline-light text-danger"  onclick="f10()">s'inscripte?</button>
+        </div><div class="col-2"></div>
+      
+        <div class="col-5 text-left">
+          <button type="button" class="btn btn-light text-danger text-decoration-underline" >Se conecte</button>
+
+         </div>
+      </div>
+
+
+      <form action="" method="get">
+        
+        <div class="row marg">
+          <div class="col-1"></div>
+          <div class="col-4  ">
+            <label for="">Email  </label>
+          </div>
+          <div class="col-7">
+            <input type="text" class="form-control"  placeholder="Entrez votre adresse email" id="email" onblur="f1()"><span style="font-size:10px ;" id="email1"></span>
+          </div>
+        </div>
+
+        <div class="row " style="margin-top: 20px;">
+          <div class="col-1"></div>
+          <div class="col-4">
+            <label for="">mote de passe  </label>
+          </div>
+          <div class="col-7 ">
+             <input type="text" class="form-control mb-0"  placeholder="tapez votre mot de passe" id="moddepass" onblur="f2()"><span style="font-size:10px ;" id="moddepass1"></span>
+          </div>
+        </div>
+        
+        <div class="row marg">
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-danger w-50">Concxion</button>
+          </div>
+        </div>
+      </form>
+
+      
+     
+     <hr>
+
+     <div class="row mt-1">
+      <div class="col-12 text-center">
+        <p class="text-black-50">or</p>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-3 text-center">
+        <a href="#"><img src="icon/google.png" alt=""></a>
+      </div>
+
+      <div class="col-3 text-center">
+        <a href="#"><img src="icon/facebook.png" alt=""></a>
+      </div>
+
+      <div class="col-3 text-center">
+        <a href="#"><img src="icon/instagram.png" alt=""></a>
+      </div>
+
+      <div class="col-3 text-center">
+        <a href="#"><img src="icon/twitter.png" alt=""></a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  
+  <div class="container widt" id="disply1" style="display: none;">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-center" style="color:#9e121b;">Bio et Bien étre</h1><hr>
+      </div>
+
+      <div class="col-5 text-right">
+        <button type="button" class="btn btn-outline-light text-danger text-decoration-underline">s'inscripte?</button>
+      </div><div class="col-2"></div>
+    
+      <div class="col-5 text-left">
+        <button type="button" class="btn  btn-outline-light text-danger"  onclick="f11()">Se conecte</button>
+
+       </div>
+    </div>
+
+
+    <form action="" method="get">
+
+
+
+      
+
+
+      <div class="row marg">
+        <div class="col-1"></div>
+        <div class="col-4  ">
+          <label for="">Nom  </label>
+        </div>
+        <div class="col-7">
+          <input type="text" class="form-control"  placeholder="Entrez votre adresse email" id="Nom" onblur="f5()"><span style="font-size:10px;" id="Nom1"></span>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 20px;">
+        <div class="col-1"></div>
+        <div class="col-4">
+          <label for="">Prenom </label>
+        </div>
+        <div class="col-7 ">
+           <input type="text" class="form-control mb-0"  placeholder="tapez votre mot de passe" id="prenom">
+        </div>
+      </div>
+
+
+      <div class="row" style="margin-top: 20px;">
+        <div class="col-1"></div>
+        <div class="col-4">
+          <label for="">Age </label>
+        </div>
+        <div class="col-7 ">
+           <input type="number" class="form-control mb-0"  placeholder="tapez votre mot de passe" id="moddepass" onblur=""><span style="font-size:10px ;" id="moddepass1"></span>
+        </div>
+      </div>
+
+
+
+      
+      <div class="row" style="margin-top: 20px;">
+        <div class="col-1"></div>
+        <div class="col-4  ">
+          <label for="">Email  </label>
+        </div>
+        <div class="col-7">
+          <input type="email" class="form-control"  placeholder="Entrez votre adresse email" id="emaill" onblur="f3()"><span style="font-size:10px ;" id="emaill1"></span>
+        </div>
+      </div>
+
+     
+
+
+
+      <div class="row " style="margin-top: 20px;">
+        <div class="col-1"></div>
+        <div class="col-4">
+          <label for="">homme</label> <input type="radio" name="name" id="homme" onclick="f7()">
+        </div>
+        <div class="col-7">
+          <label for="">femme</label> <input type="radio" name="name" id="femme" onclick="f7()">
+        </div>
+        <span id="hommefemme" style="font-size:10px ;margin-left: 10%;"></span>
+      </div>
+
+      <div class="row " style="margin-top: 20px;">
+        <div class="col-1"></div>
+        <div class="col-4">
+          <label for="">mote de passe  </label>
+        </div>
+        <div class="col-7 ">
+           <input type="text" class="form-control mb-0"  placeholder="tapez votre mot de passe" id="moddepasss" onblur="f4()"><span style="font-size:10px ;" id="moddepasss1"></span>
+        </div>
+      </div>
+
+
+      <div class="row " style="margin-top: 20px;">
+        <div class="col-1"></div>
+        <div class="col-4">
+          <label for="">Confermi mote de passe  </label>
+        </div>
+        <div class="col-7 ">
+           <input type="text" class="form-control mb-0"  placeholder="tapez votre mot de passe" id="conpass" onclick="f8()" onblur="f9()"><span style="font-size:10px ;" id="conpass1" ></span>
+        </div>
+      </div>
+
+
+      
+      <div class="row marg">
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-danger w-50">Concxion</button>
+        </div>
+      </div>
+    </form>
+
+    
+   
+   <hr>
+
+   <div class="row mt-1">
+    <div class="col-12 text-center">
+      <p class="text-black-50">or</p>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-3 text-center">
+      <a href="#"><img src="icon/google.png" alt=""></a>
+    </div>
+
+    <div class="col-3 text-center">
+      <a href="#"><img src="icon/facebook.png" alt=""></a>
+    </div>
+
+    <div class="col-3 text-center">
+      <a href="#"><img src="icon/instagram.png" alt=""></a>
+    </div>
+
+    <div class="col-3 text-center">
+      <a href="#"><img src="icon/twitter.png" alt=""></a>
+    </div>
+  </div>
+</div>>
+ 
+         
+
+      
+
+
+
+
+
+
+        
+           
+     
+
+    
+
+
+
+
+
+<footer  style="background-color: #f3f3f3;" class="mt-5" >
+  <div class="container">
+      <div class="row ">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-6 col-sm-6">
+              <a href="Nos huiles.html" ><h4 style="color: #9e121b; ">Nos huiles</h4></a>
+              <hr>
+              <ul style="list-style-type: circle;">
+                  <li><a href="#" style="color: #000000;"> Nos huiles essentielles</a></li>
+                  <li><a href="#" style="color: #000000;">  Nos huiles bio</a></li>
+                  <li><a href="#" style="color: #000000;"> Nos huiles complements alimentaires</a></li>
+              </ul>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-6 col-sm-6"> 
+              <a href="Nos coffrets.html"><h4 style="color: #9e121b; ">Nos coffrets </h4></a><hr>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-4 col-6 col-sm-6">
+              <a href=""><h4 style="color: #9e121b; ">Aide</h4></a><hr>
+              <ul style="list-style-type: circle;"> 
+                  <li><a href="#" style="color: #000000;">  FAQ</a></li>
+                  <li><a href="#" style="color: #000000;">Mentions légales</a></li>
+                  <li><a href="#" style="color: #000000;">  Contact</a></li>
+              </ul>
+          </div>
+     
+          <div class="col-xl-4 col-lg-4 col-md-4 col-6 col-sm-6">
+              <a href=""><h4 style="color: #9e121b; ">Presse</h4></a><hr>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-6 col-sm-6">
+              <a href="Qui sommes-nous.html"><h4 style="color: #9e121b; ">Qui sommes-nous ?</h4></a><hr>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-6 col-sm-6">
+              <a href="Blog.html"><h4 style="color: #9e121b; ">Blog</h4> </a><hr>
+          </div>
+      </div>
+
+      
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="ressources/js/bootstrap.js"></script>
+<script src="login.js"></script>
+   
+   
+</body>
+</html>
+
+
+
+
+
+
+
+
+

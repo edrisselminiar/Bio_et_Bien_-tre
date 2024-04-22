@@ -1,0 +1,289 @@
+
+ /* nav2 --------------------------- */
+ body{
+    margin: 0%;
+    padding: 0%;
+    font-family: cursive;
+ }
+ @media (max-width:700px){
+    body{
+        margin: 0%;
+        padding: 0%;
+        font-family: Georgia, serif;
+     }
+
+    }
+
+
+
+ .nav2{
+    display:flex;
+    width: 100%;
+    color: blue;
+    height: 70px;
+ }
+ .nava1{
+    width: 35%;
+    height: 100%;
+ }
+
+ @media screen and (min-width:700px) and (max-width:1300px){
+     .nava1{
+          width: 35%;  
+          background-color: #11c526;
+    }
+    .nava1 img{
+        width: 100%;
+        height: 100%;
+
+    }
+
+}
+
+
+
+ #logo{
+    width: 50px;
+}
+
+
+.navc{
+    width: 29%;
+    height: 100%;
+}
+@media  (max-width:700px){
+    .nava1{
+        width: 40%;  
+        background-color: #11c526;
+    }
+    .nava1 img{
+      width: 100%;
+      height: 100%;
+    }
+   
+    .navc1 input,.navc1 button{
+        display: none;
+    }
+    .navc{
+        width: 0%;
+        height: 0%;
+        display: none;
+    }
+    .nav2{
+        display:flex;
+        width: 100%;
+        color: blue;
+        height: 70px;
+     }
+    .navc2{
+        width: 9%;
+        height: 100%;
+        margin-left: 2%; 
+        margin-top: 4%;
+        
+    }
+  
+    
+    .navc3{
+        width: 9%;
+        height: 100%;
+       margin-left: 5%;
+       margin-top: 4%;
+
+         
+        
+    }
+    .select{
+        color: #2b00ff;
+        border: 1.2px solid rgb(0, 17, 255);
+        margin-top: 18%;
+        margin-left: 10%;
+        border-radius: 6px;
+    
+    }
+    
+    .navc4{
+        width: 9%;
+        height: 100%;
+        margin-top: 4%;
+        margin-left: 13%; 
+    }
+    
+    .navc5{
+        width: 9%;
+        height: 100%;
+         margin-left: 3%;
+        margin-top: 4%;
+
+    }
+    
+}
+
+.navc1{
+    margin-top: 6%;
+    margin-right: 2%;
+    margin-left: 10%;
+    /* height: 30px; */
+    height: 45%;
+}
+.navc2{
+    width: 10%;
+    height: 100%;
+    
+}
+.navc3{
+    width: 10%;
+    height: 100%;
+    
+    
+}
+.select{
+    color: #2b00ff;
+    margin-top: 18%;
+    margin-left: 10%;
+    border-radius: 6px;
+    border:none;
+    outline:none;
+    
+}
+.select option{
+    border:none;
+    outline:none;
+}
+
+.navc4{
+    width: 10%;
+    height: 100%;
+    padding-top: 1.8%;
+    padding-left: 5%;
+}
+
+.navc5{
+    width: 6%;
+    height: 100%;
+    padding-top: 1.8%;
+    padding-left: 3%;
+}
+/* نهاية nav2 _____________________________ */
+
+
+/* header --------------------- */
+header{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+/* نهاية header ______________________ */
+
+
+
+
+/* navb-------------------------------- */
+.navb{
+    background-color: #dbffdf;
+
+    margin-top: 0px;
+    
+     
+}
+@media  (min-width:700px){
+    .navb{
+        display:none;
+    }
+    
+}
+#nnav1{
+    color: #9e121b;
+}
+.n1av a{
+    text-decoration: none;
+    color:#9e121b;
+    font-family: cursive;
+    padding: 10px;
+    transition: 0.3s;
+    text-align: center;
+
+ }
+
+ .n1av li{
+    margin-top: 1.7%;
+   
+    text-align: center;
+
+ }
+ .n1av li :hover{
+    border-radius: 6px ;
+    background-color:#65C18C;
+ }
+
+.n1av ul li #nnav1:hover{
+    color: rgb(255, 255, 255);
+}
+/* انتهاء navb ____________________________ */
+
+
+/* nav 1 ------------------------------------- */
+.nav1{
+    border-bottom: 1px solid grey;
+    background-color:#dbffdf;
+    height: 50px;  
+ }
+.nav1 a,.dropdown-menu li a,.nav1 li{
+    text-decoration: none;
+    color:#9e121b;
+    font-family: cursive;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding: 10px;
+    transition: 0.3s;
+    text-align: center;
+}
+.nav1 li{
+    text-align: center; 
+}
+.nav1 ul{
+    list-style: none;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.nav1 li :hover,.nav1 ul li :hover,.nav1 .li0:hover{
+    color:rgb(255, 255, 255);
+    border-radius: 6px ;
+    background-color:#65C18C;
+}
+@media  (max-width:700px){
+    .nav1{
+        display: none;
+    }
+    
+}/* انتهاء nav 1 _____________________________________ */
+footer a{
+    text-decoration: none;
+    
+
+}
+footer a :hover{
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,79 @@
+.bord{
+    border: 8px solid #0000000e;
+    border-radius: 10px;
+    /* box-shadow: 3px 3px 3px #686868; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* // showSlides homme */
+/* Slideshow container*/
+ .slideshow-container {
+    max-width: 950px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 47%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #6d2028;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.2s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #ffffff;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(228, 212, 212, 0.8);
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fa{
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fa{
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size  */
+  @media only screen and (max-width: 500px) {
+    .prev, .next,.dot,.text {font-size: 9px}
+    .dot{
+      height: 10px;
+      width: 10px;
+
+    }
+    }
+    
